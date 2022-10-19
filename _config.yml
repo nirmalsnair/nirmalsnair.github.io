@@ -1,5 +1,5 @@
-title: 3D Reconstruction
-description: Recent projects.
+title: 3D Reconstruction from Multi-View Images
+description: Inferring the 3D geometry of objects/scenes from a set of images.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
