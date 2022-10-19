@@ -10,11 +10,11 @@ layout: default
 Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Depth Refinement," in IEEE Signal Processing Letters, vol. 29, pp. 1903-1907, 2022.
 [Link to article.](https://doi.org/10.1109/LSP.2022.3201778)
 
-#### Middlebury TempleRing model
+#### Reconstructed _Middlebury TempleRing_ model
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/ed66481b8f3f4b2d8ca991731ac3e4bb/embed?autospin=1&dnt=1"> </iframe> </div>
 
-#### Middlebury DinoRing model
+#### Reconstructed _Middlebury DinoRing_ model
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/7fc184241cd14a46bfd9a9d4464827f0/embed?autospin=1&dnt=1"> </iframe> </div>
 
@@ -25,6 +25,8 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Dept
 Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map completion and row-column depth refinement," in Proceedings of the Thirteenth International Conference on Digital Image Processing (ICDIP 2021), vol. 11878, pp. 118781N, 2021.
 [Link to article.](https://doi.org/10.1117/12.2601119)
 
+#### Reconstructed _Middlebury DinoRing_ model
+
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICDIP-2021)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/96e88cc07b4b476db9a78b0da77431c2/embed?autospin=1&dnt=1"> </iframe> </div>
 
 * * *
@@ -33,6 +35,8 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map 
 
 Nirmal S. Nair and Madhu S. Nair, "Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement," in Proceedings of the Thirteenth International Conference on Machine Vision (ICMV 2021), vol. 11605, pp. 116050Q, 2021.
 [Link to article.](https://doi.org/10.1117/12.2587241)
+
+#### Reconstructed _Middlebury DinoRing_ model
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/312b18adc82f4c6392dc34f5b901c758/embed?autospin=1&dnt=1"> </iframe> </div>
 
