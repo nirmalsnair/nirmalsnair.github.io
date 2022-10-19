@@ -4,6 +4,10 @@ layout: default
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/7fc184241cd14a46bfd9a9d4464827f0/embed?autospin=1&dnt=1"> </iframe> </div>
 
+<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICDIP-2021)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/96e88cc07b4b476db9a78b0da77431c2/embed?autospin=1&dnt=1"> </iframe> </div>
+
+<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/312b18adc82f4c6392dc34f5b901c758/embed?autospin=1&dnt=1"> </iframe> </div>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
