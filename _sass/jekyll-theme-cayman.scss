@@ -117,11 +117,13 @@ a {
   }
 
   @include medium {
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 0.5rem;
+    padding-bottom: 1rem;
   }
 
   @include small {
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 0.5rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -143,7 +145,8 @@ a {
 }
 
 .project-tagline {
-  margin-bottom: 0rem;
+  margin: 0rem;
+  margin-bottom: 1rem;
   font-weight: normal;
   opacity: 0.7;
 
