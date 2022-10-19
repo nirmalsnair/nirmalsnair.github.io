@@ -3,7 +3,7 @@ layout: default
 ---
  
 
-### Publications
+## Publications
 * * *
 
 ### 1. Multi-View Stereo using Graph Cuts-based Depth Refinement
