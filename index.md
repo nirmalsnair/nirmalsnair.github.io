@@ -14,7 +14,7 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Dept
 
 * * *
 
-### 2. Multi-View Stereo using Graph Cuts-based Depth Refinement
+### 2. Multi-view stereo using cross-view depth map completion and row-column depth refinement
 
 Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map completion and row-column depth refinement," in Proceedings of the Thirteenth International Conference on Digital Image Processing (ICDIP 2021), vol. 11878, pp. 118781N, 2021.
 [Link to article.](https://doi.org/10.1117/12.2601119)
@@ -23,7 +23,7 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map 
 
 * * *
 
-### 3. Multi-View Stereo using Graph Cuts-based Depth Refinement
+### 3. Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement
 
 Nirmal S. Nair and Madhu S. Nair, "Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement," in Proceedings of the Thirteenth International Conference on Machine Vision (ICMV 2021), vol. 11605, pp. 116050Q, 2021.
 [Link to article.](https://doi.org/10.1117/12.2587241)
