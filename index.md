@@ -14,11 +14,11 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Dept
 
 * * *
 
-TempleRing model
+<!-- TempleRing model
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/ed66481b8f3f4b2d8ca991731ac3e4bb/embed?autospin=1&dnt=1"> </iframe> </div>
 
-* * *
+* * * -->
 
 ### 2. Multi-view stereo using cross-view depth map completion and row-column depth refinement
 
