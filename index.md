@@ -2,9 +2,20 @@
 layout: default
 ---
 
+## Publications
+
+### 1. Multi-View Stereo using Graph Cuts-based Depth Refinement
+
+Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Depth Refinement," in IEEE Signal Processing Letters, vol. 29, pp. 1903-1907, 2022.
+[Link to article.](https://doi.org/10.1109/LSP.2022.3201778)
+
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/7fc184241cd14a46bfd9a9d4464827f0/embed?autospin=1&dnt=1"> </iframe> </div>
 
+* * *
+
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICDIP-2021)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/96e88cc07b4b476db9a78b0da77431c2/embed?autospin=1&dnt=1"> </iframe> </div>
+
+* * *
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/312b18adc82f4c6392dc34f5b901c758/embed?autospin=1&dnt=1"> </iframe> </div>
 
