@@ -7,8 +7,10 @@ layout: default
 
 ### 1. Multi-View Stereo using Graph Cuts-based Depth Refinement
 
+```
 Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Depth Refinement," in IEEE Signal Processing Letters, vol. 29, pp. 1903-1907, 2022.
 [Link to article.](https://doi.org/10.1109/LSP.2022.3201778)
+```
 
 #### Reconstructed _Middlebury TempleRing_ model
 
@@ -22,8 +24,10 @@ Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Dept
 
 ### 2. Multi-view stereo using cross-view depth map completion and row-column depth refinement
 
+```
 Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map completion and row-column depth refinement," in Proceedings of the Thirteenth International Conference on Digital Image Processing (ICDIP 2021), vol. 11878, pp. 118781N, 2021.
 [Link to article.](https://doi.org/10.1117/12.2601119)
+```
 
 #### Reconstructed _Middlebury TempleRing_ model
 
