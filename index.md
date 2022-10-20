@@ -11,7 +11,7 @@ layout: default
 Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Depth Refinement,"
 in IEEE Signal Processing Letters, vol. 29, pp. 1903-1907, 2022.
 ```
-[Link to article.](https://doi.org/10.1109/LSP.2022.3201778)
+[Link to article.](https://doi.org/10.1109/LSP.2022.3201778){:target="_blank"}
 
 #### Reconstructed _Middlebury TempleRing_ model
 
