@@ -1,5 +1,5 @@
 title: 3D Reconstruction from Multi-View Images
-description: Inferring the 3D geometry of objects/scenes from a set of images.
+description: Inferring the geometrical structure of an object/scene captured by a collection of images
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
