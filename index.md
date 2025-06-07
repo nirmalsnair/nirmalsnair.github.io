@@ -51,10 +51,6 @@ on Machine Vision (ICMV 2021), vol. 11605, pp. 116050Q, 2021.
 ```
 [Link to article.](https://doi.org/10.1117/12.2587241){:target="_blank"}
 
-#### Reconstructed _Middlebury TempleRing_ model
-
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/75ffa5df65b54d09b460181148d658f7/embed?autospin=1&dnt=1"> </iframe> </div>
-
 #### Reconstructed _Middlebury DinoRing_ model
 
 <div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/312b18adc82f4c6392dc34f5b901c758/embed?autospin=1&dnt=1"> </iframe> </div>
