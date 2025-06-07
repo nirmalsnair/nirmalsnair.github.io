@@ -2,7 +2,7 @@ title: 3D Reconstruction from Multi-View Images
 description: Inferring the geometrical structure of a scene captured by a collection of images
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-tactile
+theme: jekyll-theme-cayman
 
 # Manually added as per: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: pages-themes/cayman@v0.2.0
