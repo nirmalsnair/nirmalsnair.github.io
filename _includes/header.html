@@ -8,4 +8,60 @@
 
 <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-{% include sidebar.html %}
+<!-- Theme Toggle Button -->
+<div class="theme-toggle">
+    <button id="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark theme">
+        <i class="fa-solid fa-moon" id="theme-icon"></i>
+    </button>
+</div>
+
+<script>
+function toggleTheme() {
+    try {
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        const icon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+        
+        // Update icon
+        if (newTheme === 'dark') {
+            icon.className = 'fa-solid fa-sun';
+            html.setAttribute('data-theme', 'dark');
+        } else {
+            icon.className = 'fa-solid fa-moon';
+            html.setAttribute('data-theme', 'light');
+        }
+        
+        // Store preference
+        localStorage.setItem('theme', newTheme);
+        
+        // Force a repaint
+        document.body.offsetHeight;
+        
+        console.log('Theme changed to:', newTheme);
+    } catch (error) {
+        console.error('Error toggling theme:', error);
+    }
+}
+
+// Set initial theme on page load
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        const icon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+        
+        if (savedTheme === 'dark') {
+            icon.className = 'fa-solid fa-sun';
+            html.setAttribute('data-theme', 'dark');
+        } else {
+            icon.className = 'fa-solid fa-moon';
+            html.setAttribute('data-theme', 'light');
+        }
+        
+        console.log('Initial theme set to:', savedTheme);
+    } catch (error) {
+        console.error('Error setting initial theme:', error);
+    }
+});
+</script>

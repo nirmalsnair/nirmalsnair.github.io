@@ -24,6 +24,17 @@ section {
     margin-left: 320px !important;
 }
 
+/* Fix spacing between tagline and external links */
+.sidebar header p {
+    margin-bottom: 0.2rem !important; /* Very small space between tagline and external links */
+}
+
+/* Fix spacing between external links and Contents */
+.link-wrapper .sidebar-h3 {
+    margin-top: 2rem !important; /* Increase space before "Contents:" heading */
+    margin-bottom: 0.5rem !important;
+}
+
 /* Longer horizontal lines */
 hr {
     border: none;
@@ -146,4 +157,267 @@ hr {
   .popup{
     width: 70%;
   }
+}
+
+/* Theme toggle button styling */
+.theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+#theme-toggle {
+    background: none;
+    border: 1px solid #e1e4e8;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #24292e;
+    transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background: #f6f8fa;
+    transform: scale(1.1);
+}
+
+#theme-toggle i {
+    font-size: 1rem;
+}
+
+/* Mobile responsiveness for theme toggle */
+@media screen and (max-width: 768px) {
+    .theme-toggle {
+        position: fixed;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    
+    #theme-toggle {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    #theme-toggle i {
+        font-size: 0.8rem;
+    }
+}
+
+/* Dark theme overrides - using CSS custom properties */
+[data-theme="dark"] {
+    --bg-color: #0d1117;
+    --text-color: #c9d1d9;
+    --border-color: #30363d;
+    --link-color: #58a6ff;
+    --link-hover-color: #79c0ff;
+    --heading-color: #f0f6fc;
+    --card-bg: #0d1117;
+    --card-border: #30363d;
+    --card-text: #8b949e;
+}
+
+[data-theme="dark"] body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .sidebar {
+    background-color: var(--bg-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .sidebar h1,
+[data-theme="dark"] .sidebar h2,
+[data-theme="dark"] .sidebar h3 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] .sidebar a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .sidebar a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] .link-wrapper {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .link-wrapper .link li {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme="dark"] .link-wrapper .link a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .link-wrapper .link a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] .content a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="dark"] .content a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] section {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="dark"] section h1,
+[data-theme="dark"] section h2,
+[data-theme="dark"] section h3,
+[data-theme="dark"] section h4 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] section a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="dark"] section a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="dark"] hr {
+    background-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .card {
+    border-color: var(--card-border) !important;
+    background-color: var(--card-bg) !important;
+}
+
+[data-theme="dark"] .card h3 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] .card p {
+    color: var(--card-text) !important;
+}
+
+[data-theme="dark"] #theme-toggle {
+    border-color: var(--border-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="dark"] #theme-toggle:hover {
+    background: var(--border-color) !important;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+    --bg-color: #ffffff;
+    --text-color: #24292e;
+    --border-color: #e1e4e8;
+    --link-color: #0366d6;
+    --link-hover-color: #1f6feb;
+    --heading-color: #24292e;
+    --card-bg: #ffffff;
+    --card-border: #e1e4e8;
+    --card-text: #586069;
+}
+
+[data-theme="light"] body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="light"] .sidebar {
+    background-color: var(--bg-color) !important;
+    border-right: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .sidebar h1,
+[data-theme="light"] .sidebar h2,
+[data-theme="light"] .sidebar h3 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="light"] .sidebar a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="light"] .sidebar a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="light"] .link-wrapper {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .link-wrapper .link li {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .link-wrapper .link a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="light"] .link-wrapper .link a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="light"] .content a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="light"] .content a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="light"] section {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="light"] section h1,
+[data-theme="light"] section h2,
+[data-theme="light"] section h3,
+[data-theme="light"] section h4 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="light"] section a {
+    color: var(--link-color) !important;
+}
+
+[data-theme="light"] section a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+[data-theme="light"] hr {
+    background-color: var(--border-color) !important;
+}
+
+[data-theme="light"] .card {
+    border-color: var(--card-border) !important;
+    background-color: var(--card-bg) !important;
+}
+
+[data-theme="light"] .card h3 {
+    color: var(--heading-color) !important;
+}
+
+[data-theme="light"] .card p {
+    color: var(--card-text) !important;
+}
+
+[data-theme="light"] #theme-toggle {
+    border-color: var(--border-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme="light"] #theme-toggle:hover {
+    background: #f6f8fa !important;
 }

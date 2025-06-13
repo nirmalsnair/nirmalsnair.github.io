@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## About Me:
+## <span id="about-me">About Me</span>
 
 I am **Nirmal S. Nair**, a researcher specializing in **3D Reconstruction from Multi-View Images**. I focus on inferring the geometrical structure of a scene captured by a collection of images. My research involves developing advanced algorithms for multi-view stereo reconstruction and depth map refinement.
 
@@ -9,7 +9,91 @@ I have a keen interest in computer vision, machine learning, and 3D reconstructi
 
 ---
 
-## Education:
+## <span id="professional-experience">Professional Experience</span>
+
+<h3 style="margin-bottom:2px;">Research Fellow</h3>
+<p style="margin:0;"><b>Singapore Institute of Technology</b><br>
+May 2023 - Present</p>
+<ul style="margin-left: -1.4em;">
+  <li>Leading research in multi-view stereo reconstruction algorithms.</li>
+  <li>Developing novel depth map refinement techniques using graph cuts and optimization methods.</li>
+  <li>Publishing research findings in top-tier conferences and journals.</li>
+</ul>
+
+---
+
+## <span id="projects">Projects</span>
+
+<div class="card">
+  <h3>demoConstruct</h3>
+  <p><b>SLAM, Python, Babylon.js, and WebXR</b></p>
+  <ul>
+    <li>Developed a comprehensive system for 3D reconstruction from multiple images.</li>
+    <li>Implemented graph cuts-based depth refinement for improved reconstruction quality.</li>
+    <li>Achieved state-of-the-art results on Middlebury benchmark datasets.</li>
+  </ul>
+  <a href="#research-publications"><span class="card-link-spanner"></span></a>
+</div>
+
+<div class="card">
+  <h3>Multi-View Stereo Reconstruction</h3>
+  <p><b>Python, OpenCV, Computer Vision, Graph Cuts, and Metaheuristic Optimization</b></p>
+  <ul>
+    <li>Developed a comprehensive system for 3D reconstruction from multiple images.</li>
+    <li>Implemented graph cuts-based depth refinement for improved reconstruction quality.</li>
+    <li>Achieved state-of-the-art results on Middlebury benchmark datasets.</li>
+  </ul>
+  <a href="#research-publications"><span class="card-link-spanner"></span></a>
+</div>
+
+<div class="card">
+  <h3>Telepresence for Robotic Arm</h3>
+  <p><b>Python, Computer Vision, Depth Camera</b></p>
+  <ul>
+    <li>Created cross-view depth map completion algorithms for robust 3D reconstruction.</li>
+    <li>Implemented row-column depth refinement techniques for enhanced accuracy.</li>
+    <li>Published results in international conferences and journals.</li>
+  </ul>
+  <a href="#research-publications"><span class="card-link-spanner"></span></a>
+</div>
+
+---
+
+## <span id="publications">Publications:</span>
+
+<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1109/LSP.2022.3201778" target="_blank" rel="noopener noreferrer">Multi-View Stereo Using Graph Cuts-Based Depth Refinement</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+IEEE Signal Processing Letters.<br>
+Volume 29, 2022, pp. 1903-1907.<br>
+Doi: <a href="https://doi.org/10.1109/LSP.2022.3201778" target="_blank" rel="noopener noreferrer">https://doi.org/10.1109/LSP.2022.3201778</a></p>
+<ul style="margin-left: -1.4em;">
+  <li>Proposed a novel graph cuts-based approach for depth map refinement in multi-view stereo reconstruction.</li>
+  <li>Achieved improved reconstruction quality on standard benchmark datasets.</li>
+</ul>
+
+<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1117/12.2601119" target="_blank" rel="noopener noreferrer">Multi-view stereo using cross-view depth map completion and row-column depth refinement</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+Proceedings of the Thirteenth International Conference on Digital Image Processing (ICDIP 2021).<br>
+Volume 11878, 2021, pp. 118781N.<br>
+Doi: <a href="https://doi.org/10.1117/12.2601119" target="_blank" rel="noopener noreferrer">https://doi.org/10.1117/12.2601119</a></p>
+<ul style="margin-left: -1.4em;">
+  <li>Developed cross-view depth map completion algorithms for robust 3D reconstruction.</li>
+  <li>Implemented row-column depth refinement techniques for enhanced accuracy.</li>
+</ul>
+
+<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1117/12.2587241" target="_blank" rel="noopener noreferrer">Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+Proceedings of the Thirteenth International Conference on Machine Vision (ICMV 2021).<br>
+Volume 11605, 2021, pp. 116050Q.<br>
+Doi: <a href="https://doi.org/10.1117/12.2587241" target="_blank" rel="noopener noreferrer">https://doi.org/10.1117/12.2587241</a></p>
+<ul style="margin-left: -1.4em;">
+  <li>Proposed scalable multi-view stereo algorithms using CMA-ES optimization.</li>
+  <li>Implemented distance transform-based depth map refinement for improved results.</li>
+</ul>
+
+---
+
+## <span id="education">Education:</span>
 
 <h3 style="margin-bottom:2px;">Master of Technology in Computer Science</h3>
 <h4 style="margin:0;">Your University Name</h4>
@@ -23,7 +107,7 @@ CGPA: X.XX/10.0
 
 ---
 
-## Skills:
+## <span id="skills">Skills:</span>
 
 <h4 style="margin-bottom:2px;">Programming Languages:</h4>
 <p style="margin-bottom:4px;">&#x2022; Python &#x2022; C++ &#x2022; MATLAB</p>
@@ -42,89 +126,7 @@ CGPA: X.XX/10.0
 
 ---
 
-## Professional Experience:
-
-<h3 style="margin-bottom:2px;">Research Institution</h3>
-<p style="margin:0;"><b>Research Scientist</b><br>
-Year - Present</p>
-<ul style="margin-left: -1.4em;">
-  <li>Leading research in multi-view stereo reconstruction algorithms.</li>
-  <li>Developing novel depth map refinement techniques using graph cuts and optimization methods.</li>
-  <li>Publishing research findings in top-tier conferences and journals.</li>
-</ul>
-
-<h3 style="margin-bottom:2px;">Previous Institution</h3>
-<p style="margin:0;"><b>Research Assistant</b><br>
-Year - Year</p>
-<ul style="margin-left: -1.4em;">
-  <li>Worked on scalable multi-view stereo algorithms using CMA-ES optimization.</li>
-  <li>Implemented distance transform-based depth map refinement techniques.</li>
-  <li>Collaborated with international research teams on computer vision projects.</li>
-</ul>
-
----
-
-## <span id="projects">Projects:</span>
-
-<div class="card">
-  <h3>Multi-View Stereo Reconstruction System</h3>
-  <p><b>Python, OpenCV, and Computer Vision</b></p>
-  <ul>
-    <li>Developed a comprehensive system for 3D reconstruction from multiple images.</li>
-    <li>Implemented graph cuts-based depth refinement for improved reconstruction quality.</li>
-    <li>Achieved state-of-the-art results on Middlebury benchmark datasets.</li>
-  </ul>
-  <a href="#research-publications"><span class="card-link-spanner"></span></a>
-</div>
-
-<div class="card">
-  <h3>Depth Map Completion and Refinement</h3>
-  <p><b>Python and Optimization Algorithms</b></p>
-  <ul>
-    <li>Created cross-view depth map completion algorithms for robust 3D reconstruction.</li>
-    <li>Implemented row-column depth refinement techniques for enhanced accuracy.</li>
-    <li>Published results in international conferences and journals.</li>
-  </ul>
-  <a href="#research-publications"><span class="card-link-spanner"></span></a>
-</div>
-
----
-
-## <span id="publications">Publications:</span>
-
-<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1109/LSP.2022.3201778">Multi-View Stereo Using Graph Cuts-Based Depth Refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
-IEEE Signal Processing Letters.<br>
-Volume 29, 2022, pp. 1903-1907.<br>
-Doi: <a href="https://doi.org/10.1109/LSP.2022.3201778">https://doi.org/10.1109/LSP.2022.3201778</a></p>
-<ul style="margin-left: -1.4em;">
-  <li>Proposed a novel graph cuts-based approach for depth map refinement in multi-view stereo reconstruction.</li>
-  <li>Achieved improved reconstruction quality on standard benchmark datasets.</li>
-</ul>
-
-<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1117/12.2601119">Multi-view stereo using cross-view depth map completion and row-column depth refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
-Proceedings of the Thirteenth International Conference on Digital Image Processing (ICDIP 2021).<br>
-Volume 11878, 2021, pp. 118781N.<br>
-Doi: <a href="https://doi.org/10.1117/12.2601119">https://doi.org/10.1117/12.2601119</a></p>
-<ul style="margin-left: -1.4em;">
-  <li>Developed cross-view depth map completion algorithms for robust 3D reconstruction.</li>
-  <li>Implemented row-column depth refinement techniques for enhanced accuracy.</li>
-</ul>
-
-<h3 style="margin-bottom:2px; color:var(--clr-a-text);"><a href="https://doi.org/10.1117/12.2587241">Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
-Proceedings of the Thirteenth International Conference on Machine Vision (ICMV 2021).<br>
-Volume 11605, 2021, pp. 116050Q.<br>
-Doi: <a href="https://doi.org/10.1117/12.2587241">https://doi.org/10.1117/12.2587241</a></p>
-<ul style="margin-left: -1.4em;">
-  <li>Proposed scalable multi-view stereo algorithms using CMA-ES optimization.</li>
-  <li>Implemented distance transform-based depth map refinement for improved results.</li>
-</ul>
-
----
-
-## <span id="research-publications">Research Publications:</span>
+## <span id="research-publications">Research results:</span>
 
 ### 1. Multi-View Stereo using Graph Cuts-based Depth Refinement
 
