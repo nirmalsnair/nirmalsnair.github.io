@@ -1,23 +1,17 @@
 navigation:
   - name: "About Me"
-    link: "#about-me"
-  - name: "Education"
-    link: "#education"
-  - name: "Skills"
-    link: "#skills"
+    link: "/#about-me"
   - name: "Professional Experience"
-    link: "#professional-experience"
+    link: "/#professional-experience"
   - name: "Projects"
-    link: "#projects"
+    link: "/#projects"
   - name: "Publications"
-    link: "#publications"
-  - name: "Research Publications"
-    link: "#research-publications"
+    link: "/#publications"
 
 title: Nirmal S. Nair
 logo: /assets/img/logo.webp
 email: nirmal.nair@outlook.com
-description: 3D Reconstruction | SLAM | Virtual Reality 
+description: Research Fellow @ <a href="https://www.immersification.org/" target="_blank">Centre for Immersification</a>, <a href="https://www.singaporetech.edu.sg/" target="_blank">Singapore Institute of Technology</a> <br/><br/> 3D Reconstruction, SLAM, Immersive Technologies
 favicon: true
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 color-scheme: dark

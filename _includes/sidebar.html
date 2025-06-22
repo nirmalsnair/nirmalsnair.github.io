@@ -1,9 +1,9 @@
 <div class="link-wrapper">
   {% if site.platforms %}
   <ul class="link">
-  {%- for platform in site.platforms %}
-    <li><a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer">{{ platform.icon }}&nbsp;{{ platform.name }}</a></li>
-  {%- endfor %}
+    {%- for platform in site.platforms %}
+    <li><a href="{{ platform.link }}">{{ platform.icon }}&nbsp;&nbsp;{{ platform.name }}</a></li>
+    {%- endfor %}
   </ul>
   {% endif %}
 
@@ -23,4 +23,4 @@
   {%- endfor %}
   </ul>
   {% endif %}
-</div> 
+</div>
