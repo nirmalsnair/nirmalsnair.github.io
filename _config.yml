@@ -18,7 +18,7 @@ color-scheme: dark
 
 google_analytics:
 
-url: "https://nirmalsnair.github.io/"
+url: "https://nirmalsnair.github.io"
 
 include:
   - pages
