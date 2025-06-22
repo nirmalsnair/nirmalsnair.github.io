@@ -1,169 +1,104 @@
 ---
 layout: default
 ---
- 
-<!-- ## Publications
-* * * -->
+## <span id="about-me">About Me</span>
 
-### 1. Multi-View Stereo using Graph Cuts-based Depth Refinement
+I'm a computer science researcher working at the intersection of **3D reconstruction** and **human-centered design**. My current work focuses on <a href="/democonstruct">demoConstruct</a>, an open-source platform for real-time scene capture, editing, and collaboration across web and VR. The system integrates SLAM, digital twins, and collaborative 3D editing, and has been showcased at <a href="https://s2024.siggraph.org/program/labs/" target="_blank">SIGGRAPH Labs 2024</a> and <a href="https://chi2025.acm.org/for-authors/interactivity" target="_blank">CHI Interactivity 2025</a>.
 
-```
-Nirmal S. Nair and Madhu S. Nair, "Multi-View Stereo Using Graph Cuts-Based Depth Refinement," in
-IEEE Signal Processing Letters, vol. 29, pp. 1903-1907, 2022.
-```
-[Link to article.](https://doi.org/10.1109/LSP.2022.3201778){:target="_blank"}
+Earlier in my academic journey, my PhD research focused on **multi-view stereo** and the application of metaheuristic optimization to address ill-posed problems in multi-view geometry. This foundation in 3D reconstruction and computer vision now informs my efforts on building practical, interactive, and user-facing systems.
 
-#### Reconstructed _Middlebury TempleRing_ model
+I'm particularly interested in:
+* **3D reconstruction** (Photogrammetry, SLAM, Gaussian Splatting)
+* **Interactive spatial tools** for web and VR (Babylon.js, WebXR)
+* **Translational research** bridging academic methods with real-world applications
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/ed66481b8f3f4b2d8ca991731ac3e4bb/embed?autospin=1&dnt=1"> </iframe> </div>
+---
 
-#### Reconstructed _Middlebury DinoRing_ model
+## <span id="professional-experience">Professional Experience</span>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (IEEE SPL-2022)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/7fc184241cd14a46bfd9a9d4464827f0/embed?autospin=1&dnt=1"> </iframe> </div>
+<h3 style="margin-bottom:2px;">Research Fellow</h3>
+<p style="margin:0;"><b>Centre for Immersification, Singapore Institute of Technology</b><br>
+May 2023 - Present (2 years, 2 months)</p>
+<ul style="margin-left: -1.4em;">
+  <li>Co-developed an open-source platform for real-time progressive 3D reconstruction and collaborative scene editing in web and VR</li>
+  <li>Evaluated and integrated MVS, SLAM, and Gaussian Splatting algorithms to enhance system capabilities</li>
+  <li>Delivered technical presentations and live demos to external stakeholders, leading to an industry collaboration</li>
+  <li>Published co-authored work at respected peer-reviewed research venues</li>
+</ul>
 
-* * *
+---
 
-### 2. Multi-view stereo using cross-view depth map completion and row-column depth refinement
+## <span id="projects">Projects</span>
 
-```
-Nirmal S. Nair and Madhu S. Nair, "Multi-view stereo using cross-view depth map completion and
-row-column depth refinement," in Proceedings of the Thirteenth International Conference on Digital
-Image Processing (ICDIP 2021), vol. 11878, pp. 118781N, 2021.
-```
-[Link to article.](https://doi.org/10.1117/12.2601119){:target="_blank"}
+<div class="card">
+  <h3>demoConstruct</h3>
+  <p><b>SLAM, Gaussian Splatting | Python, Babylon.js, WebXR</b></p>
+  <ul>
+    <li>Co-developed an open-source platform for real-time progressive 3D reconstruction and collaborative scene editing</li>
+    <li>Integrated 3D Gaussian Splatting to improve scene realism</li>
+    <li>Showcased at SIGGRAPH Labs 2024 and CHI Interactivity 2025</li>
+  </ul>
+  <a href="/democonstruct"><span class="card-link-spanner"></span></a>
+</div>
 
-#### Reconstructed _Middlebury TempleRing_ model
+<div class="card">
+  <h3>Multi-View Stereo Reconstruction</h3>
+  <p><b>3D Reconstruction, Computer Vision, Graph Cuts, Metaheuristic Optimization | Python, MATLAB</b></p>
+  <ul>
+    <li>Developed depth map-based multi-view stereo methods for 3D reconstruction</li>
+    <li>Explored the use of metaheuristics in solving multi-view geometry problems</li>
+    <li>Published research in peer-reviewed international journals and conferences</li>
+  </ul>
+  <a href="/multi-view-stereo"><span class="card-link-spanner"></span></a>
+</div>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (ICDIP 2021)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/9b970d0da8ca48fd81f55263da21c571/embed?autospin=1&dnt=1"> </iframe> </div>
+---
 
-#### Reconstructed _Middlebury DinoRing_ model
+## <span id="publications">Publications</span>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICDIP-2021)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/96e88cc07b4b476db9a78b0da77431c2/embed?autospin=1&dnt=1"> </iframe> </div>
+<h3 style="margin-bottom:2px;">Collaborative Scene Authoring with Near Real-Time 3D Reconstruction</h3>
+<p style="margin:0;"><b>Leon Foo, Nirmal S. Nair, Liuziyi Liu, Jeannie Su Ann Lee, Songjia Shen, Indriyati Atmosukarto, Alvin Chan, Jing Shi, Yong Joo Loh, Yih Yng Ng, Michael Chia, Chek Tien Tan</b><br>
+<i>ACM CHI 2025 Interactivity</i> (Yokohama, Japan)<br>
+<a href="https://dl.acm.org/doi/abs/10.1145/3706599.3721190" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/abs/10.1145/3706599.3721190</a></p>
+<ul style="margin-left: -1.4em;">
+  <!-- <li>Showcased integration of SLAM, digital twins, and collaborative 3D editing.</li> -->
+</ul>
 
-* * *
+<h3 style="margin-bottom:2px;">demoConstruct: Democratizing Scene Construction for Digital Twins through Progressive Reconstruction</h3>
+<p style="margin:0;"><b>Leon Foo, Chek Tien Tan, Liuziyi Liu, Nirmal S. Nair, Songjia Shen, Jeannie Lee</b><br>
+<i>ACM SIGGRAPH 2024 Labs</i> (Denver, CO, USA)<br>
+<a href="https://dl.acm.org/doi/abs/10.1145/3641236.3664424" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/abs/10.1145/3641236.3664424</a></p>
+<ul style="margin-left: -1.4em;">
+  <!-- <li>Introduced demoConstruct, an open-source platform for real-time scene capture, editing, and collaboration across web and VR.</li> -->
+</ul>
 
-### 3. Scalable multi-view stereo using CMA-ES and distance transform-based depth map refinement
+<h3 style="margin-bottom:2px;">Multi-View Stereo Using Graph Cuts-Based Depth Refinement</h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+<i>IEEE Signal Processing Letters</i>, 2022<br>
+<a href="https://doi.org/10.1109/LSP.2022.3201778" target="_blank" rel="noopener noreferrer">https://doi.org/10.1109/LSP.2022.3201778</a></p>
+<ul style="margin-left: -1.4em;">
+  <!-- <li>Proposed a novel graph cuts-based approach for depth map refinement in multi-view stereo reconstruction.</li> -->
+</ul>
 
-```
-Nirmal S. Nair and Madhu S. Nair, "Scalable multi-view stereo using CMA-ES and distance
-transform-based depth map refinement," in Proceedings of the Thirteenth International Conference
-on Machine Vision (ICMV 2021), vol. 11605, pp. 116050Q, 2021.
-```
-[Link to article.](https://doi.org/10.1117/12.2587241){:target="_blank"}
+<h3 style="margin-bottom:2px;">Multi-view Stereo using Cross-view Depth Map Completion and Row-column Depth Refinement</h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+<i>International Conference on Digital Image Processing, ICDIP 2021</i> (Singapore)<br>
+<a href="https://doi.org/10.1117/12.2601119" target="_blank" rel="noopener noreferrer">https://doi.org/10.1117/12.2601119</a></p>
+<ul style="margin-left: -1.4em;">
+</ul>
 
-#### Reconstructed _Middlebury TempleRing_ model
+<h3 style="margin-bottom:2px;">Scalable Multi-view Stereo using CMA-ES and Distance Transform-based Depth Map Refinement</h3>
+<p style="margin:0;"><b>Nirmal S. Nair and Madhu S. Nair</b><br>
+<i>International Conference on Machine Vision, ICMV 2020</i> (Rome, Italy)<br>
+<a href="https://doi.org/10.1117/12.2587241" target="_blank" rel="noopener noreferrer">https://doi.org/10.1117/12.2587241</a></p>
+<ul style="margin-left: -1.4em;">
+</ul>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury TempleRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/75ffa5df65b54d09b460181148d658f7/embed?autospin=1&dnt=1"> </iframe> </div>
+<h3 style="margin-bottom:2px;">On Evolutionary Computation Techniques for Multi-view Triangulation</h3>
+<p style="margin:0;"><b>Nirmal S. Nair, Madhu S. Nair</b><br>
+<i>Machine Vision and Applications</i>, 2020<br>
+<a href="https://link.springer.com/article/10.1007/s00138-020-01077-2" target="_blank" rel="noopener noreferrer">https://link.springer.com/article/10.1007/s00138-020-01077-2</a></p>
+<ul style="margin-left: -1.4em;">
+</ul>
 
-#### Reconstructed _Middlebury DinoRing_ model
-
-<div class="sketchfab-embed-wrapper"> <iframe title="Middlebury DinoRing (ICMV-2020)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="640" height="480" src="https://sketchfab.com/models/312b18adc82f4c6392dc34f5b901c758/embed?autospin=1&dnt=1"> </iframe> </div>
-
-* * *
-
-<!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-# Header 1
-## Header 2
-### Header 3
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-``` -->
+<hr>
