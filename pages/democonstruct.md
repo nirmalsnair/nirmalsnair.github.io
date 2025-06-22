@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /democonstruct/
+permalink: /democonstruct
 ---
 
 **[Home](/) >> demoConstruct**

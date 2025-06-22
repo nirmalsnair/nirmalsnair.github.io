@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /multi-view-stereo/
+permalink: /multi-view-stereo
 ---
 
 **[Home](/) >> Multi-View Stereo Reconstruction**
