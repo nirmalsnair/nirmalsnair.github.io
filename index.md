@@ -3,7 +3,7 @@ layout: default
 ---
 ## <span id="about-me">About Me</span>
 
-I'm a computer science researcher working at the intersection of **3D reconstruction** and **human-centered design**. My current work focuses on <a href="/democonstruct">demoConstruct</a>, an open-source platform for real-time scene capture, editing, and collaboration across web and VR. The system integrates SLAM, digital twins, and collaborative 3D editing, and has been showcased at <a href="https://s2024.siggraph.org/program/labs/">SIGGRAPH Labs 2024</a> and <a href="https://chi2025.acm.org/for-authors/interactivity">CHI Interactivity 2025</a>.
+I'm a computer science researcher working at the intersection of **3D reconstruction** and **human-centered design**. My current work focuses on <a href="/democonstruct">demoConstruct</a>, an open-source platform for real-time scene capture, editing, and collaboration across web and VR. The system integrates SLAM, digital twins, and collaborative 3D editing, and has been showcased at <a href="https://s2024.siggraph.org/program/labs/">SIGGRAPH 2024 Labs</a> and <a href="https://chi2025.acm.org/for-authors/interactivity">CHI 2025 Interactivity</a>.
 
 Earlier in my academic journey, my PhD research focused on **multi-view stereo** and the application of metaheuristic optimization to address ill-posed problems in multi-view geometry. This foundation in 3D reconstruction and computer vision now informs my efforts on building practical, interactive, and user-facing systems.
 
@@ -36,7 +36,7 @@ May 2023 - Present (2 years, 2 months)</p>
   <ul>
     <li>Co-developed an open-source platform for real-time progressive 3D reconstruction and collaborative scene editing</li>
     <li>Integrated 3D Gaussian Splatting to improve scene realism</li>
-    <li>Showcased at SIGGRAPH Labs 2024 and CHI Interactivity 2025</li>
+    <li>Showcased at SIGGRAPH 2024 Labs and CHI 2025 Interactivity</li>
   </ul>
   <a href="/democonstruct"><span class="card-link-spanner"></span></a>
 </div>
