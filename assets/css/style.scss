@@ -1,0 +1,100 @@
+---
+---
+
+@import "jekyll-theme-minimalistic";
+
+/*
+  Large-screen layout tweak
+  Purpose: make only the right/content column wider on desktops and laptops.
+  Safe to undo: delete this entire section if you want to return to the theme defaults.
+*/
+@media screen and (min-width: 1200px) {
+  /*
+    Increase the overall page width so the wider content column still fits
+    without changing the left sidebar width.
+  */
+  .wrapper {
+    width: 960px;
+  }
+
+  /*
+    Make only the right column wider.
+    The left sidebar keeps the theme's original width.
+  */
+  section {
+    width: 650px;
+  }
+}
+
+
+/*
+  Project card media layout
+  Safe to undo: remove this block and the extra img/div markup in index.md.
+*/
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.project-card-media {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.project-card-body {
+  flex: 1;
+}
+
+/*
+  Medium-screen adjustment
+  Purpose: move the image above the text and make it smaller in the tablet/medium range.
+  Safe to undo: remove this block to keep the side-by-side card layout at these widths.
+*/
+@media screen and (min-width: 721px) and (max-width: 960px) {
+  .project-card {
+    display: block;
+  }
+
+  .project-card-media {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 12px;
+  }
+}
+
+/*
+  Mobile adjustment
+  Purpose: keep the image on the left on small screens while reducing its size.
+  Safe to undo: remove this block to fall back to the default project card layout.
+*/
+@media screen and (max-width: 720px) {
+  .project-card {
+    display: flex;
+    gap: 12px;
+  }
+
+  .project-card-media {
+    width: 84px;
+    height: 84px;
+    margin: 0;
+  }
+}
+
+
+/*
+  Profile image adjustment
+  Purpose: reduce the sidebar profile picture size on tablet and larger screens only.
+  Safe to undo: remove this block to restore the theme's default logo size.
+*/
+@media screen and (min-width: 961px) {
+  .logo {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 10px 10px;
+  }
+}
