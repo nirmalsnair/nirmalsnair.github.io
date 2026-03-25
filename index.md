@@ -3,49 +3,79 @@ layout: default
 ---
 ## <span id="about-me">About Me</span>
 
-Hi, I’m a computer science researcher working in **computer vision** and **3D reconstruction**, with a strong interest in turning research methods into practical, easy-to-use systems. Most recently, I worked on <a href="/r3cap">R3CAP</a>, an open-source platform for real-time scene capture, editing, and collaboration across web and VR. The system combines SLAM, digital twins, and multi-user 3D editing, and was showcased at <a href="https://s2024.siggraph.org/program/labs/">SIGGRAPH 2024 Labs</a> and <a href="https://chi2025.acm.org/for-authors/interactivity">CHI 2025 Interactivity.</a>
+Hi, I'm a computer vision researcher specializing in **3D reconstruction** and **spatial computing**, with a focus on developing practical, end-to-end systems.
 
-Earlier, my PhD research focused on multi-view stereo, where I explored numerical and metaheuristic optimization techniques to tackle ill-posed problems in multi-view geometry. This work shaped my core interests in 3D vision and continues to inform how I approach newer representations and pipelines.
+My work sits at the intersection of multi-view geometry, real-time reconstruction, and interactive 3D systems, including recent directions in hybrid scene representations such as Gaussian Splatting.
 
-Over time, I have increasingly enjoyed working on systems that move beyond isolated algorithms and toward usable, end-to-end tools. My primary motivation is to develop technically sound 3D vision methods that can be deployed, evaluated, and extended in real-world settings.
+During my PhD, I focused on **multi-view stereo**, exploring numerical and metaheuristic optimization techniques to address ill-posed problems in multi-view geometry. This experience continues to inform how I design reconstruction pipelines and evaluate newer representations.
 
-I'm particularly interested in:
+More recently, I worked on <a href="/r3cap">R3CAP</a>, an open-source platform for real-time scene capture, editing, and collaboration across web and VR. The system integrates SLAM, digital twins, and multi-user 3D interaction, and was showcased at <a href="https://s2024.siggraph.org/program/labs/">SIGGRAPH 2024 Labs</a> and <a href="https://chi2025.acm.org/for-authors/interactivity">CHI 2025 Interactivity.</a>
+
+I also work with learning-based approaches for scene understanding and 3D perception, particularly in settings where learned models and geometric methods need to work together reliably (e.g., robot perception in real-world environments).
+
+I am particularly interested in:
 <ul style="margin-top:-15px; margin-left:-1em;">
-  <li><b>3D reconstruction</b> (Photogrammetry, SLAM, Gaussian Splatting)</li>
-  <li><b>Computer vision</b> methods for depth, geometry, and scene understanding</li>
-  <li><b>Interactive spatial tools</b> for web and VR (Babylon.js, WebXR)</li>
-  <li><b>Translational research</b> that moves ideas from papers into working software</li>
+  <li>3D reconstruction, SLAM, and real-time systems</li>
+  <li>Computer vision and robot perception for 3D understanding</li>
+  <li>Hybrid representations bridging geometric and learned methods</li>
+  <li>Spatial computing and interactive 3D tools</li>
 </ul>
 
 ---
 
-## <span id="professional-experience">Professional Experience</span>
+## <span id="publications">Publications</span>
 
-<h3 style="margin-bottom:0px;">Research Fellow</h3>
-<p style="margin:0;"><b>Centre for Immersification, Singapore Institute of Technology</b><br>
-May 2023 - July 2025 (2 years, 3 months)</p>
-<ul style="margin-top:5px; margin-left:-1em;">
-  <li>Co-developed an open-source platform for real-time, progressive 3D reconstruction and collaborative scene editing in web and VR.</li>
-  <li>Evaluated and integrated MVS, SLAM, and Gaussian Splatting techniques to enhance system capabilities.</li>
-  <li>Delivered 25+ technical presentations and live demonstrations to industry stakeholders, leading to ongoing research collaborations.</li>
-  <li>Co-authored publications at peer-reviewed research venues.</li>
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://dl.acm.org/doi/abs/10.1145/3706599.3721190">Collaborative Scene Authoring with Near Real-Time 3D Reconstruction</a> <a href="https://www.immersification.org/projects/2025/10/09/r3cap.html">[project]</a></h3>
+<p style="margin:0;">Leon Foo, <b>Nirmal S. Nair</b>, Liuziyi Liu, Jeannie Su Ann Lee, Songjia Shen, Indriyati Atmosukarto, Alvin Chan, Jing Shi, Yong Joo Loh, Yih Yng Ng, Michael Chia, Chek Tien Tan<br>
+<i>ACM CHI 2025 Interactivity</i></p>
+<ul style="margin-left: -1.4em;">
+</ul>
+
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://dl.acm.org/doi/abs/10.1145/3641236.3664424">demoConstruct: Democratizing Scene Construction for Digital Twins through Progressive Reconstruction</a> <a href="https://github.com/singaporetech/r3cap">[code]</a></h3>
+<p style="margin:0;">Leon Foo, Chek Tien Tan, Liuziyi Liu, <b>Nirmal S. Nair</b>, Songjia Shen, Jeannie Lee<br>
+<i>ACM SIGGRAPH 2024 Labs</i></p>
+<ul style="margin-left: -1.4em;">
+</ul>
+
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1109/LSP.2022.3201778">Multi-View Stereo Using Graph Cuts-Based Depth Refinement</a> <a href="https://github.com/nirmalsnair/mvs-graphcuts">[code]</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
+<i>IEEE Signal Processing Letters, 2022</i></p>
+<ul style="margin-left: -1.4em;">
+</ul>
+
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1117/12.2601119">Multi-view Stereo using Cross-view Depth Map Completion and Row-column Depth Refinement</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
+<i>SPIE International Conference on Digital Image Processing, ICDIP 2021</i></p>
+<ul style="margin-left: -1.4em;">
+</ul>
+
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1117/12.2587241">Scalable Multi-view Stereo using CMA-ES and Distance Transform-based Depth Map Refinement</a> <a href="https://github.com/nirmalsnair/mvs-cmaes">[code]</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
+<i>SPIE International Conference on Machine Vision, ICMV 2020</i></p>
+<ul style="margin-left: -1.4em;">
+</ul>
+
+<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://link.springer.com/article/10.1007/s00138-020-01077-2">On Evolutionary Computation Techniques for Multi-view Triangulation</a></h3>
+<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
+<i>Machine Vision and Applications, Springer, 2020</i></p>
+<ul style="margin-left: -1.4em;">
 </ul>
 
 ---
 
 ## <span id="projects">Projects</span>
 
-<div class="card">
+<!-- <div class="card">
   <h3>R3CAP</h3>
-  <p><b>SLAM, Gaussian Splatting | Python, NeRF Studio, Babylon.js, WebXR</b></p>
+  <i>(<b>R</b>eal-time <b>3</b>D Reconstruction and <b>C</b>ollaborative <b>A</b>uthoring <b>P</b>latform)</i>
+  <p><b>SLAM · Gaussian Splatting · WebXR</b></p>
   <ul style="margin-top:5px;">
-    <li>Previously known as demoConstruct, R3CAP is an open-source platform that enables accessible and collaborative scene authoring, powered by progressive 3D reconstruction.</li>
-    <li>Showcased at ACM SIGGRAPH 2024 and ACM CHI 2025.</li>
+    An open-source platform for real-time 3D capture and collaborative scene authoring. Combines SLAM-based geometry with explicit radiance field representations (e.g., 3D Gaussian Splatting) for interactive visualization and editing.
   </ul>
   <a href="/r3cap"><span class="card-link-spanner"></span></a>
-</div>
+</div> -->
 
-<div class="card">
+<!-- <div class="card">
   <h3>Multi-View Stereo Reconstruction</h3>
   <p><b>3D Reconstruction, Computer Vision, Graph Cuts, Metaheuristic Optimization | Python, COLMAP, MATLAB</b></p>
   <ul style="margin-top:5px;">
@@ -53,47 +83,55 @@ May 2023 - July 2025 (2 years, 3 months)</p>
     <li>Published in IEEE Signal Processing Letters 2022.</li>
   </ul>
   <a href="/multi-view-stereo"><span class="card-link-spanner"></span></a>
+</div> -->
+
+<!--
+  Custom project card with left-side media preview.
+  Safe to undo: remove this block to revert to text-only project cards.
+-->
+<div class="card project-card">
+  <img class="project-card-media" src="/assets/img/r3cap_card.webp" alt="R3CAP preview">
+  <div class="project-card-body">
+    <h3>R3CAP</h3>
+    <p><b>SLAM · Gaussian Splatting · WebXR</b></p>
+    <ul style="margin-top:5px;">
+      An open-source platform for real-time 3D capture and collaborative scene authoring. Combines SLAM-based geometry with explicit radiance field representations (e.g., 3D Gaussian Splatting) for interactive visualization and editing.
+    </ul>
+  </div>
+  <a href="/r3cap"><span class="card-link-spanner"></span></a>
 </div>
+
+<div class="card project-card">
+  <img class="project-card-media" src="/assets/img/mvsgc_card.webp" alt="R3CAP preview">
+  <div class="project-card-body">
+    <h3>Multi-View Stereo Reconstruction</h3>
+    <p><b>Depth Estimation · Graph Cuts · Metaheuristics</b></p>
+    <ul style="margin-top:5px;">
+      A multi-view stereo framework that combines metaheuristic optimization and graph cuts to produce accurate, consistent depth maps, with improved robustness to occlusions and low-texture regions.
+    </ul>
+  </div>
+  <a href="/r3cap"><span class="card-link-spanner"></span></a>
+</div>
+<!-- End custom project card with media preview. -->
 
 ---
 
-## <span id="publications">Publications</span>
+## <span id="research-experience">Research Experience</span>
 
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://dl.acm.org/doi/abs/10.1145/3706599.3721190">Collaborative Scene Authoring with Near Real-Time 3D Reconstruction</a></h3>
-<p style="margin:0;">Leon Foo, <b>Nirmal S. Nair</b>, Liuziyi Liu, Jeannie Su Ann Lee, Songjia Shen, Indriyati Atmosukarto, Alvin Chan, Jing Shi, Yong Joo Loh, Yih Yng Ng, Michael Chia, Chek Tien Tan<br>
-<i>ACM CHI 2025 Interactivity</i> (Yokohama, Japan)</p>
-<ul style="margin-left: -1.4em;">
-  <!-- <li>Showcased integration of SLAM, digital twins, and collaborative 3D editing.</li> -->
+<h3 style="margin-bottom:0px;">Research Fellow</h3>
+<p style="margin:0;"><b>Centre for Immersification, Singapore Institute of Technology</b> (2023 - 2025)<br>
+</p>
+<ul style="margin-top:5px; margin-left:-1em;">
+  <li>Developed real-time 3D capture and digital twin systems, integrating SLAM, depth sensing, and interactive web/VR tools.</li>
+  <li>Worked on interactive systems including a 3D vision-based telepresence system (<i>RoboArm</i>), focusing on real-time performance and usability.</li>
 </ul>
 
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://dl.acm.org/doi/abs/10.1145/3641236.3664424">demoConstruct: Democratizing Scene Construction for Digital Twins through Progressive Reconstruction</a></h3>
-<p style="margin:0;">Leon Foo, Chek Tien Tan, Liuziyi Liu, <b>Nirmal S. Nair</b>, Songjia Shen, Jeannie Lee<br>
-<i>ACM SIGGRAPH 2024 Labs</i> (Denver, USA)</p>
-<ul style="margin-left: -1.4em;">
-  <!-- <li>Introduced demoConstruct, an open-source platform for real-time scene capture, editing, and collaboration across web and VR.</li> -->
+<h3 style="margin-bottom:0px;">PhD Researcher</h3>
+<p style="margin:0;"><b>Department of Computer Science, University of Kerala</b> (2015 - 2022)<br>
+</p>
+<ul style="margin-top:5px; margin-left:-1em;">
+  <li>Conducted research in multi-view stereo, developing depth map-based methods to improve scalability, reconstruction accuracy, and robustness to occlusions and untextured regions.</li>
+  <li>Investigated metaheuristic optimization for improving solutions in multi-view stereo and triangulation.</li>
 </ul>
 
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1109/LSP.2022.3201778">Multi-View Stereo Using Graph Cuts-Based Depth Refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
-<i>IEEE Signal Processing Letters</i>, 2022</p>
-<ul style="margin-left: -1.4em;">
-  <!-- <li>Proposed a novel graph cuts-based approach for depth map refinement in multi-view stereo reconstruction.</li> -->
-</ul>
-
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1117/12.2601119">Multi-view Stereo using Cross-view Depth Map Completion and Row-column Depth Refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
-<i>International Conference on Digital Image Processing, ICDIP 2021</i> (Singapore)</p>
-<ul style="margin-left: -1.4em;">
-</ul>
-
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://doi.org/10.1117/12.2587241">Scalable Multi-view Stereo using CMA-ES and Distance Transform-based Depth Map Refinement</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
-<i>International Conference on Machine Vision, ICMV 2020</i> (Rome, Italy)</p>
-<ul style="margin-left: -1.4em;">
-</ul>
-
-<h3 style="margin-bottom:2px;font-weight:100;"><a href="https://link.springer.com/article/10.1007/s00138-020-01077-2">On Evolutionary Computation Techniques for Multi-view Triangulation</a></h3>
-<p style="margin:0;"><b>Nirmal S. Nair</b>, Madhu S. Nair<br>
-<i>Machine Vision and Applications</i>, Springer, 2020</p>
-<ul style="margin-left: -1.4em;">
-</ul>
+---
