@@ -107,10 +107,10 @@ I am particularly interested in:
     <h3>Multi-View Stereo Reconstruction</h3>
     <p><b>Depth Estimation · Graph Cuts · Metaheuristics</b></p>
     <ul style="margin-top:5px;">
-      A multi-view stereo framework that combines metaheuristic optimization and graph cuts to produce accurate, consistent depth maps, with improved robustness to occlusions and low-texture regions.
+      A multi-view stereo framework that combines metaheuristic optimization and graph cuts to produce accurate and consistent depth maps, with robustness to occlusions and low-texture regions.
     </ul>
   </div>
-  <a href="/r3cap"><span class="card-link-spanner"></span></a>
+  <a href="/multi-view-stereo"><span class="card-link-spanner"></span></a>
 </div>
 <!-- End custom project card with media preview. -->
 
