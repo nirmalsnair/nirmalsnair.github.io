@@ -105,7 +105,7 @@ I am particularly interested in:
   <img class="project-card-media" src="/assets/img/mvsgc_card.webp" alt="R3CAP preview">
   <div class="project-card-body">
     <h3>Multi-View Stereo Reconstruction</h3>
-    <p><b>Depth Estimation · Graph Cuts · Metaheuristics</b></p>
+    <p><b>3D Reconstruction · Depth Estimation · Graph Cuts</b></p>
     <ul style="margin-top:5px;">
       A multi-view stereo framework that combines metaheuristic optimization and graph cuts to produce accurate and consistent depth maps, with robustness to occlusions and low-texture regions.
     </ul>
